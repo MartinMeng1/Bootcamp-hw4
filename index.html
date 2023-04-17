@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="resetsheet" href = "assets/reset.css"/>
+        <link rel="stylesheet" href = "assets/style.css"/>
+    </head>
+
+    <header>
+        <h1>Quiz Challenge</h1>
+    </header>
+
+    <body>
+        <section id="start-block">
+            <h2>This quiz is designed to be interesting and challenging!</h2>
+            <h2>Let's see how many correct answers you can get!</h2>
+            <button id="start-button">Start quiz</button>
+            <div class="card">
+                <h2>Last Saved Score</h2>
+                <p>Initials: <span id="saved-initial"></span></p>
+                <p>score: <span id="saved-score"></span></p>
+              </div>
+        </section>
+
+        <section id="quiz-block" class="hide">
+            <div id="timer"></div>
+            <h1 id="question-text"></h1>
+            <div id="answers">
+                <button class="options" id="option1"> </button>
+                <button class="options" id="option2"> </button>
+                <button class="options" id="option3"> </button>
+                <button class="options" id="option4"> </button>
+            </div>
+            <form id="userinput">
+                <div  style="margin-top: 50px;">
+                    <p>Enter your answer here(a,b,c,d):</p>
+                    <textarea id="textarea" placeholder="Your input" ></textarea>
+                  </div>
+            </form>
+         </section>
+       
+        <section id="score-block" class="hide">
+            <form id="score-count">
+                <label for="scores">you score:</label>
+                <input type="text" id="initials" name="initials" value="">
+            </form>
+            <form id="initialform">
+                <label for="initial">Your initial:</label>
+                <input type="text" id="initials" name="initials" value="">
+            </form>
+        </section>
+
+
+
+
+
+
+
+        <script src="assets/script.js"></script>
+    </body>
+</html>
