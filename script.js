@@ -58,8 +58,7 @@ var questions= [
              document.querySelector("#quiz-block").setAttribute("class","hide");
              document.querySelector("#score-block").setAttribute("class",""); 
              document.querySelector("#score-count").children[1].value = score;
-             localStorage.setItem("score", score);
-             localStorage.setItem("Initial",document.querySelector("#initialform").children[1].value);
+            
 
 
     }
@@ -91,8 +90,7 @@ var questions= [
         document.querySelector("#quiz-block").setAttribute("class","hide");
         document.querySelector("#score-block").setAttribute("class",""); 
         document.querySelector("#score-count").children[1].value = score;
-        localStorage.setItem("score", score);
-        localStorage.setItem("Initial",document.querySelector("#initialform").children[1].value);
+       
 
 
         
@@ -125,7 +123,13 @@ textareaEl.addEventListener("keydown",function(event)
 }
 )
 
-if()
+var saveButton = document.querySelector("#save");
+
+saveButton.addEventListener("click",function(){
+    localStorage.setItem("score", score);
+    localStorage.setItem("Initial",document.querySelector("#initialform").children[1].value);
+}
+)
 
 
 
