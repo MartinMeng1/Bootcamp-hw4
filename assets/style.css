@@ -1,0 +1,90 @@
+header{
+    text-align:center;
+    color:black;
+    font-size: x-large;
+}
+
+body{
+    background-color:lightgray;
+}
+
+h2{
+    text-align: center;
+}
+
+#start-block{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height:70vh;
+}
+
+
+
+#start-button{
+    margin-top: 8em;
+    font-size: xx-large;
+    background-color: chartreuse;
+}
+
+#start-block.hide1{
+    display:none;
+}
+
+.hide{
+    display:none;
+}
+
+
+#timer {
+    height: 240px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    color: black;
+  }
+  
+
+
+ #answers{
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+ }
+ .options{
+    font-weight: bolder;
+    font-size: xx-large;
+    color:red;
+    background-color: black;
+ }
+
+  #question-text{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:brown;
+    background-color: black;
+  }
+
+  .card {
+    background-color:	#FFFFE0;
+    border: 1px solid #eceff1;
+    border-radius: 8px;
+    box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
+      rgba(60, 64, 67, 0.15) 0 2px 4px 3px;
+    margin: 40px 20px;
+    padding: 20px;
+    width: 40vw;
+    float: left;
+  }
+
+  #userinput
+  {
+    display:flex;
+    justify-content: center;
+    font-size: xx-large;
+  }
+  
+  
+
