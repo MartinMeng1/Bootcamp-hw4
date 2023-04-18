@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Bootcamp-hw4
 1. This is a quiz.
 2. When the user click the start button, the question will be rendered.
@@ -8,4 +8,5 @@
 6. One all the questions are answered or the timer runs out of time, the score page with user-entered initial will appear on the page.
 7. The score and initial of the user is automatically saved, and will appear on the start-page.
 
+git page : https://martinmeng1.github.io/Bootcamp-hw4/
 
