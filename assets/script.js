@@ -6,12 +6,12 @@ var questions= [
         correctAnswer :"b" ,
     },
     {
-        question: "Who won the 2018 MSI League of Legend game",
+        question: "Who won the 2018 MSI League of Legend game?",
         options : ["FNC","FW","RNG","KZ"],
         correctAnswer:"c",
     },
     {
-        question : "Who developed the idea that underpinned the basis of the first computer",
+        question : "Who developed the idea that underpinned the basis of the first computer?",
         options : ["Tim Berners-Lee","Ray Tomlinson","Jogh McCarthy","Alan Turing"],
         correctAnswer: "d",
     },
@@ -46,8 +46,8 @@ var questions= [
        document.querySelector("#option4").textContent = questions[numberOfQuestion].options[3];
     }
 
-//Set to timer to 40s, and if the time reaches to zero, the quiz-block will be terminated and the score-block will appear.
-    var secondsLeft = 40;
+//Set to timer to 60s, and if the time reaches to zero, the quiz-block will be terminated and the score-block will appear.
+    var secondsLeft = 60;
     function startTimer()
     {
         var timerInterval = setInterval(function() {
@@ -113,8 +113,8 @@ textareaEl.addEventListener("keydown",function(event)
     }
     else
     {   
-        secondsLeft-3;
-        startTimer()
+        secondsLeft= secondsLeft-3;
+        //startTimer()
         numberindex++;
         checkQuestionLeft();
         loadquestion(numberindex);
